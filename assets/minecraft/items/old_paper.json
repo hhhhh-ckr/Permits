@@ -1,0 +1,132 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": [
+          770,
+          "Default_Blank_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_blank"
+        }
+      },
+      {
+        "when": [
+          "771",
+          "Default_Regular_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_regular"
+        }
+      },
+      {
+        "when": [
+          "772",
+          "Default_Iron_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_iron"
+        }
+      },
+      {
+        "when": [
+          "773",
+          "Default_Gold_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_gold"
+        }
+      },
+      {
+        "when": [
+          "774",
+          "Default_Diamond_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_diamond"
+        }
+      },
+      {
+        "when": [
+          "775",
+          "Default_Joker_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/default/permits_joker"
+        }
+      },
+      {
+        "when": [
+          "7770",
+          "Worned_Blank_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_blank_worned"
+        }
+      },
+      {
+        "when": [
+          "7771",
+          "Worned_Regular_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_regular_worned"
+        }
+      },
+      {
+        "when": [
+          "7772",
+          "Worned_Iron_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_iron_worned"
+        }
+      },
+      {
+        "when": [
+          "7773",
+          "Worned_Gold_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_gold_worned"
+        }
+      },
+      {
+        "when": [
+          "7774",
+          "Worned_Diamond_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_diamond_worned"
+        }
+      },
+      {
+        "when": [
+          "7775",
+          "Worned_Joker_Permit"
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/permits/worned/permits_joker_worned"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    }
+  }
+}

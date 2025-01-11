@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_blank"
+        },
+        "threshold": 770
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_regular"
+        },
+        "threshold": 771
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_iron"
+        },
+        "threshold": 772
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_gold"
+        },
+        "threshold": 773
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_diamond"
+        },
+        "threshold": 774
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/default/permits_joker"
+        },
+        "threshold": 775
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_blank_worned"
+        },
+        "threshold": 7770
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_regular_worned"
+        },
+        "threshold": 7771
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_iron_worned"
+        },
+        "threshold": 7772
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_gold_worned"
+        },
+        "threshold": 7773
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_diamond_worned"
+        },
+        "threshold": 7774
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/permits/worned/permits_joker_worned"
+        },
+        "threshold": 7775
+      }
+    ]
+  }
+}
