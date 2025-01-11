@@ -1,0 +1,89 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "./permits_regular_worned"
+	},
+	"elements": [
+		{
+			"name": "handle_up",
+			"from": [4, 11, 7.5],
+			"to": [12, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 11, 7]},
+			"faces": {
+				"north": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"east": {"uv": [7.5, 10, 8.5, 11], "texture": "#0"},
+				"south": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"west": {"uv": [7.5, 10, 8.5, 11], "texture": "#0"},
+				"up": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"down": {"uv": [0, 10, 8, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "permit_base",
+			"from": [4, 1, 8],
+			"to": [12, 11, 8.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 10], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_down",
+			"from": [4, 0, 7.5],
+			"to": [12, 1, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"east": {"uv": [7.5, 10, 8.5, 11], "texture": "#0"},
+				"south": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"west": {"uv": [7.5, 10, 8.5, 11], "texture": "#0"},
+				"up": {"uv": [0, 10, 8, 11], "texture": "#0"},
+				"down": {"uv": [8, 10, 16, 11], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, -2, -3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, -2, -3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 125, 0],
+			"translation": [-0.25, 1, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 125, 0],
+			"translation": [-0.25, 1, 0.25]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [0, 150, 7],
+			"translation": [0, 2.5, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 3.5, -0.01],
+			"scale": [1.75, 1.75, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "worned regular",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

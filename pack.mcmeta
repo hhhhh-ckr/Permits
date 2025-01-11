@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": [
+      "§f├ Permits §7v0.1.0 §f| §a1.14§f-§a1.21.3\n",
+      "§f└ §dChat'ur §9Game §6Studios"
+    ],
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 4,
+      "max_inclusive": 42
+    }
+  }
+}
